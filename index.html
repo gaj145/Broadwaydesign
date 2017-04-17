@@ -1,46 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
     <meta charset="utf-8">
     <title>Broadway Design
     </title>
   </head>
   <body>
-  <div>
-    <h1>Broadway Design</h1>
+  <div class="flatiron">
+    <h1 id="title">Broadway Design</h1>
     <nav>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Work</li>
-        <li>Team</li>
-        <li>Contact</li>
-      </ul>
+        <h3 class="link"><a href="#title">Home</a></h3>
+        <h3 class="link"><a href="#process">About</a></h3>
+        <h3 class="link"><a href="#portfolio">Work</a></h3>
+        <h3 class="link"><a href="#team">Team</a></h3>
+        <h3 class="link"><a href="#contact">Contact</a></h3>
     </nav>
   </div>
   <div>
-    <h2>Our Process</h2>
+    <h2 id="process">Our Process</h2>
       <img src="https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/identify.svg">
-      <h3>Identify</h3>
+      <h3 class="heading">Identify</h3>
       <p> We focus on the most important details.</p>
       <img src="https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/understand.svg">
-      <h3>Understand</h3>
+      <h3 class="heading">Understand</h3>
       <p>We study our projects inside and out</p>
       <img src="https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/execute.svg">
-      <h3>Execute</h3>
+      <h3 class="heading">Execute</h3>
       <p>We put everything we have into our work</p>
   </div>
-  <h2>Designed in New York</h2>
+  <h2 class="flatiron heading white">Designed in New York</h2>
   <div>
-    <h3>Portfolio</h3>
+    <h3 id="portfolio" class="heading">Portfolio</h3>
     <p>Coming Soon</p>
-    <h3>Team</h3>
+    <h3 id="team" class="heading">Team</h3>
     <p>We're Hiring</p>
-    <h3>Contact</h3>
-    <P>Phone: (555)-555-5555<br> Email:Test@example.com<br> Twitter: @text</p>
+    <h3 id="contact" class="heading">Contact</h3>
+    <P>Phone: (555)-555-5555<br><br> Email:Test@example.com<br><br> Twitter: @text</p>
   </div>
-  <p>Broadway 2017<nav>Home About Work Team Contact</p>
-
-
-  </body>
+  <p id="footer">Broadway 2017 <a href="#title"Home</a><a href="#process">About</a> <a href="#portfolio">Work</a> <a href="#team">Team</a> <a href="#contact">Contact</a></p>
+</body>
 </html>
